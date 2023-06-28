@@ -2,4 +2,4 @@
 
 #### الدليل الارشادي لإستخدام الـ API
 
-<img src="api_doc.svg">
+<img src="api_docs/get_doc.svg">
