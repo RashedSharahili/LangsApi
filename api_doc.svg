@@ -26,6 +26,7 @@
             </style>
 
             <span class="badge-primary">GET</span> <label>https://648d4c152de8d0ea11e7b746.mockapi.io/langs</label>
+            <p>Gets a list of Langs</p>
         </div>
     </foreignObject>
 </svg>
