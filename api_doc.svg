@@ -8,8 +8,24 @@
                 border: 1px solid #eee;
                 border-radius: 8px;
             }
+            
+            .badge-primary {
+                display: inline-block;
+                min-width: 10px;
+                padding: 7px 7px;
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 1;
+                color: #fff;
+                text-align: center;
+                white-space: nowrap;
+                vertical-align: middle;
+                background-color: #337ab7;
+                border-radius: 10px;
+            }
             </style>
-            <h1>HELLO WORLD!</h1>
+
+            <span class="badge-primary">GET</span> <label>https://648d4c152de8d0ea11e7b746.mockapi.io/langs</label>
         </div>
     </foreignObject>
 </svg>
