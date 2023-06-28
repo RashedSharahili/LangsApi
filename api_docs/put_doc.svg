@@ -1,0 +1,32 @@
+<svg fill="none" viewBox="0 0 400 400" width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml" class="panel">
+            <style>
+            .panel {
+                width: 100%;
+                padding: 8px;
+                border: 1px solid #eee;
+                border-radius: 8px;
+            }
+            
+            .badge-warning {
+                display: inline-block;
+                min-width: 10px;
+                padding: 7px 7px;
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 1;
+                color: #fff;
+                text-align: center;
+                white-space: nowrap;
+                vertical-align: middle;
+                background-color: #b95e04;
+                border-radius: 10px;
+            }
+            </style>
+
+            <span class="badge-warning">PUT</span> <label>https://648d4c152de8d0ea11e7b746.mockapi.io/langs/:id</label>
+            <p>Modify Lang</p>
+        </div>
+    </foreignObject>
+</svg>
