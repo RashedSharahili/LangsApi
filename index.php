@@ -50,56 +50,56 @@ $langs = get_langs();
                         <!-- Modal body -->
                         <div class="modal-body">
                             <div class="row">
-                                <div class="col-lg-2">
+                                <div class="col-lx-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
                                     <label for="">لغة البرمجة</label>
                                 </div>
-                                <div class="col-lg-10">
+                                <div class="col-lx-10 col-lg-10 col-md-10 col-sm-10 col-xs-10">
                                     <input type="text" name="l_name" id="l_name" class="form-control" autocomplete="off">
                                 </div>
                             </div>
                             <br>
                             <div class="row">
-                                <div class="col-lg-2">
+                                <div class="col-lx-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
                                     <label for="">نبذة عن لغة البرمجة</label>
                                 </div>
-                                <div class="col-lg-10">
+                                <div class="col-lx-10 col-lg-10 col-md-10 col-sm-10 col-xs-10">
                                     <input type="text" name="l_brief" id="l_brief" class="form-control" autocomplete="off">
                                 </div>
                             </div>
                             <br>
                             <div class="row">
-                                <div class="col-lg-2">
+                                <div class="col-lx-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
                                     <label for="">شعار لغة البرمجة(رابط)</label>
                                 </div>
-                                <div class="col-lg-10">
+                                <div class="col-lx-10 col-lg-10 col-md-10 col-sm-10 col-xs-10">
                                     <input type="text" name="l_image" id="l_image" class="form-control" autocomplete="off">
                                 </div>
                             </div>
                             <br>
                             <div class="row" style="border: 1px solid #ccc; padding: 8px;">
-                                <div class="col-lg-2">
+                                <div class="col-lx-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
                                     <label for="">أُطر عمل لغة البرمجة</label>
                                 </div>
-                                <div class="col-lg-9">
+                                <div class="col-lx-9 col-lg-9 col-md-9 col-sm-9 col-xs-9">
                                     <div id="frameworks_div">
                                         <input type="text" name="l_frame_works[]" id="l_frame_works_0" class="form-control" autocomplete="off" style="margin-top: 8px;">
                                     </div>
                                 </div>
-                                <div class="col-lg-1">
+                                <div class="col-lx-1 col-lg-1 col-md-1 col-sm-1 col-xs-1">
                                     <button type="button" name="" id="add_framework_btn" class="btn btn-light"><i class="bi bi-plus"></i></button>
                                 </div>
                             </div>
                             <br>
                             <div class="row" style="border: 1px solid #ccc; padding: 8px;">
-                                <div class="col-lg-2">
+                                <div class="col-lx-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
                                     <label for="">الاستخدامات الشائعة للغة البرمجة</label>
                                 </div>
-                                <div class="col-lg-9">
+                                <div class="col-lx-9 col-lg-9 col-md-9 col-sm-9 col-xs-9">
                                     <div id="popular_uses_div">
                                         <input type="text" name="l_popular_uses[]" id="l_popular_uses_0" class="form-control" autocomplete="off" style="margin-top: 8px;">
                                     </div>
                                 </div>
-                                <div class="col-lg-1">
+                                <div class="col-lx-1 col-lg-1 col-md-1 col-sm-1 col-xs-1">
                                     <button type="button" name="" id="add_popular_uses_btn" class="btn btn-light"><i class="bi bi-plus"></i></button>
                                 </div>
                             </div>
@@ -108,10 +108,10 @@ $langs = get_langs();
                         <!-- Modal footer -->
                         <div class="modal-footer">
                             <div class="row" style="width: 100%;">
-                                <div class="col-lg-6" style="text-align: right;">
+                                <div class="col-lx-6 col-lg-6 col-md-6 col-sm-6 col-xs-6" style="text-align: right;">
                                     <button type="submit" class="btn btn-primary">إضافة</button>
                                 </div>
-                                <div class="col-lg-6" style="text-align: left;">
+                                <div class="col-lx-6 col-lg-6 col-md-6 col-sm-6 col-xs-6" style="text-align: left;">
                                     <button type="button" class="btn btn-danger" data-bs-dismiss="modal">إغلاق</button>
                                 </div>
                             </div>
@@ -136,56 +136,56 @@ $langs = get_langs();
                         <!-- Modal body -->
                         <div class="modal-body">
                             <div class="row">
-                                <div class="col-lg-2">
+                                <div class="col-lx-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
                                     <label for="">لغة البرمجة</label>
                                 </div>
-                                <div class="col-lg-10">
+                                <div class="col-lx-10 col-lg-10 col-md-10 col-sm-10 col-xs-10">
                                     <input type="text" name="l_name" id="edit_l_name" class="form-control" autocomplete="off">
                                 </div>
                             </div>
                             <br>
                             <div class="row">
-                                <div class="col-lg-2">
+                                <div class="col-lx-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
                                     <label for="">نبذة عن لغة البرمجة</label>
                                 </div>
-                                <div class="col-lg-10">
+                                <div class="col-lx-10 col-lg-10 col-md-10 col-sm-10 col-xs-10">
                                     <input type="text" name="l_brief" id="edit_l_brief" class="form-control" autocomplete="off">
                                 </div>
                             </div>
                             <br>
                             <div class="row">
-                                <div class="col-lg-2">
+                                <div class="col-lx-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
                                     <label for="">شعار لغة البرمجة(رابط)</label>
                                 </div>
-                                <div class="col-lg-10">
+                                <div class="col-lx-10 col-lg-10 col-md-10 col-sm-10 col-xs-10">
                                     <input type="text" name="l_image" id="edit_l_image" class="form-control" autocomplete="off">
                                 </div>
                             </div>
                             <br>
                             <div class="row" style="border: 1px solid #ccc; padding: 8px;">
-                                <div class="col-lg-2">
+                                <div class="col-lx-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
                                     <label for="">أُطر عمل لغة البرمجة</label>
                                 </div>
-                                <div class="col-lg-9">
+                                <div class="col-lx-9 col-lg-9 col-md-9 col-sm-9 col-xs-9">
                                     <div id="edit_frameworks_div">
                                         <!-- <input type="text" name="l_frame_works[]" id="l_frame_works_0" class="form-control" autocomplete="off" style="margin-top: 8px;"> -->
                                     </div>
                                 </div>
-                                <div class="col-lg-1">
+                                <div class="col-lx-1 col-lg-1 col-md-1 col-sm-1 col-xs-1">
                                     <button type="button" name="" id="edit_add_framework_btn" class="btn btn-light"><i class="bi bi-plus"></i></button>
                                 </div>
                             </div>
                             <br>
                             <div class="row" style="border: 1px solid #ccc; padding: 8px;">
-                                <div class="col-lg-2">
+                                <div class="col-lx-2 col-lg-2 col-md-2 col-sm-2 col-xs-2">
                                     <label for="">الاستخدامات الشائعة للغة البرمجة</label>
                                 </div>
-                                <div class="col-lg-9">
+                                <div class="col-lx-9 col-lg-9 col-md-9 col-sm-9 col-xs-9">
                                     <div id="edit_popular_uses_div">
                                         <!-- <input type="text" name="l_popular_uses[]" id="l_popular_uses_0" class="form-control" autocomplete="off" style="margin-top: 8px;"> -->
                                     </div>
                                 </div>
-                                <div class="col-lg-1">
+                                <div class="col-lx-1 col-lg-1 col-md-1 col-sm-1 col-xs-1">
                                     <button type="button" name="" id="edit_add_popular_uses_btn" class="btn btn-light"><i class="bi bi-plus"></i></button>
                                 </div>
                             </div>
@@ -194,11 +194,11 @@ $langs = get_langs();
                         <!-- Modal footer -->
                         <div class="modal-footer">
                             <div class="row" style="width: 100%;">
-                                <div class="col-lg-6" style="text-align: right;">
+                                <div class="col-lx-6 col-lg-6 col-md-6 col-sm-6 col-xs-6" style="text-align: right;">
                                     <input type="hidden" name="id" value="">
                                     <button type="button" id="edit_submit" class="btn btn-primary">تعديل</button>
                                 </div>
-                                <div class="col-lg-6" style="text-align: left;">
+                                <div class="col-lx-6 col-lg-6 col-md-6 col-sm-6 col-xs-6" style="text-align: left;">
                                     <button type="button" class="btn btn-danger" data-bs-dismiss="modal">إغلاق</button>
                                 </div>
                             </div>
